@@ -1,4 +1,4 @@
-# Lesson 2
+# Lesson2
 # Task 10
 """
 Задача 10:
