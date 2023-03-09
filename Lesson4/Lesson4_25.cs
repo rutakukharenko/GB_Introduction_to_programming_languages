@@ -1,10 +1,4 @@
-﻿
-/// <summary>
-/// Возводит число <paramref name="basisDegree"/> в степень <paramref name="indicatorDegree"/>
-/// </summary>
-/// <param name="basisDegree">Основание степени.</param>
-/// <param name="indicatorDegree">Показатель степени.</param>
-int Exponentiation(int basisDegree, int indicatorDegree)
+﻿int Exponentiation(int basisDegree, int indicatorDegree)
 {
     var res = 1;
 

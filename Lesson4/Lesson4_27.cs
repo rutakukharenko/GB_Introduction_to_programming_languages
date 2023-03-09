@@ -1,8 +1,4 @@
-﻿
-/// <summary>
-/// Возвращает сумму цифр числа <paramref name="num" />
-/// </summary>
-int SumDigitsNumber(int num)
+﻿int SumDigitsNumber(int num)
 {
     var sum = 0;
     while (num > 0)

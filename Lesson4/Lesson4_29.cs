@@ -1,8 +1,4 @@
 ﻿using System.Text;
-
-/// <summary>
-/// Возвращает массив целых чисел.
-/// </summary>
 IReadOnlyCollection<int> GenerateRandomIntArray(int n = 8)
 {
     var array = new List<int>();
@@ -17,10 +13,6 @@ IReadOnlyCollection<int> GenerateRandomIntArray(int n = 8)
 
     return array;
 }
-
-/// <summary>
-/// Выводит в консоль содержимое массива <paramref name="array"/>.
-/// </summary>
 void PrintIntArray(in IReadOnlyCollection<int> array)
 {
     var arrOutput = new StringBuilder();
@@ -30,9 +22,6 @@ void PrintIntArray(in IReadOnlyCollection<int> array)
         arrOutput.Append(item)
                  .Append(" ");
     }
-
-    // Проще конечно так.
-    //Console.WriteLine(string.Join(",", array));
     Console.WriteLine(arrOutput.ToString()
                                .Trim());
 }
